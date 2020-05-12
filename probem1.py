@@ -19,7 +19,7 @@ def f1():
                 return True
     return False
 
-# SoluTouilAli/api-plateformtion 2
+# Solution 2
 def f2():
     s = set()
     for n in numbers:
