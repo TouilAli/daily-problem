@@ -11,8 +11,6 @@ k = 25
 numbers = [10, 15, 3, 7]
 
 # Solution 1
-
-
 def f1():
     l = len(numbers)
     for i in range(l):
@@ -32,7 +30,5 @@ def f2():
     return False
 
 # Solution 3
-
-
 def f3():
     return bool({k - n for n in numbers} & set(numbers))
