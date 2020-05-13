@@ -13,8 +13,6 @@ numbers = [1, 2, 3, 4, 5]
 output = []
 
 # Solution 1
-
-
 def f1(
         r:  1):
     l = len(numbers)
@@ -26,8 +24,6 @@ def f1(
     return output
 
 # Solution 2 : Using division
-
-
 def f2():
     l = len(numbers)
     for i in range(0, l):
@@ -38,8 +34,6 @@ def f2():
     return output
 
 # Solution 3
-
-
 def f3():
     output = []
     right = 1
@@ -53,7 +47,6 @@ def f3():
         left *= n
     return output
 
-
-print("S1: ", timeit.timeit(f1, number=0), f1())
-print("S2: ", timeit.timeit(f2, number=0), f2())
-print("S3: ", timeit.timeit(f3, number=0), f3())
+print("S1: ", timeit.timeit(f1, number=10), f1())
+print("S2: ", timeit.timeit(f2, number=10), f2())
+print("S3: ", timeit.timeit(f3, number=10), f3())
