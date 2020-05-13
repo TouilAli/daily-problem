@@ -10,6 +10,8 @@ print("This line will be printed.")
 k = 25
 numbers = [10, 15, 3, 7]
 
+# Solution 1
+
 
 def f1():
     l = len(numbers)
@@ -19,8 +21,9 @@ def f1():
                 return True
     return False
 
-
 # Solution 2
+
+
 def f2():
     s = set()
     for n in numbers:
