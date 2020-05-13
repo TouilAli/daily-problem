@@ -10,8 +10,6 @@ print("This line will be printed.")
 k = 25
 numbers = [10, 15, 3, 7]
 
-# Solution 1
-
 
 def f1():
     l = len(numbers)
